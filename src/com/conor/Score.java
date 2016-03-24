@@ -1,4 +1,4 @@
-package com.clara;
+package com.conor;
 
 /** Keeps track of, and display the user's score
  * 
