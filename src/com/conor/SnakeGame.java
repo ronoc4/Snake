@@ -3,7 +3,13 @@ package com.conor;
 import java.util.Timer;
 
 import javax.swing.*;
-
+/*
+*
+* Conor Budge
+* Update to Clara James Snake game
+* https://github.com/minneapolis-edu/Snake
+*
+* */
 
 public class SnakeGame {
 
@@ -15,7 +21,7 @@ public class SnakeGame {
 
 	public final static int squareSize = 50;
 
-	protected static Snake snake ;
+	protected static Snake snake ; //Left off here
 
 	private static GameComponentManager componentManager;
 

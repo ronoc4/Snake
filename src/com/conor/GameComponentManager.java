@@ -15,6 +15,9 @@ public class GameComponentManager {
      * different types of kibble/prizes, different scoring systems...
      * they could be managed here too
      */
+
+    //TODO add walls, mazes to this class for rest of project
+
     public void update() {
         snake.moveSnake();
         if (snake.didEatKibble(kibble)) {

@@ -3,6 +3,8 @@ package com.conor;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+/* Here is a link to the docs on KeyListener https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyListener.html */
+
 public class GameControls implements KeyListener{
 	
 

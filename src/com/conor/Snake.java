@@ -53,6 +53,7 @@ public class Snake {
 		snakeHeadX = screenXCenter;
 		snakeHeadY = screenYCenter;
 
+		//Length of 3 for snake
 		snakeSize = 3;
 
 		currentHeading = DIRECTION_LEFT;
@@ -72,6 +73,8 @@ public class Snake {
 	public LinkedList<Point> segmentsToDraw(){
 		//Return a list of the actual x and y coordinates of the top left of each snake segment
 		//Useful for the Panel class to draw the snake
+		//https://docs.oracle.com/javase/7/docs/api/java/awt/Point.html
+		// Point: A point representing a location in (x,y) coordinate space, specified in integer precision.
 		LinkedList<Point> segmentCoordinates = new LinkedList<Point>();
 		for (int segment = 1 ; segment <= snakeSize ; segment++ ) {
 			//search array for each segment number
