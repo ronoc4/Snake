@@ -115,7 +115,7 @@ public class SnakeGame {
 		timer.scheduleAtFixedRate(clockTick, 0, clockInterval);
 	}
 
-
+	//TODO ask how the game stage methods work
 	public static int getGameStage() {
 		return gameStage;
 	}
