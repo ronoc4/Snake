@@ -81,7 +81,7 @@ public class DrawSnakeGamePanel extends JPanel {
 		g.drawString(newHighScore, 150, 400);
 		
 		g.drawString("press a key to play again", 150, 350);
-		g.drawString("Press q to quit the game",150,400);		
+		g.drawString("Press q to quit the game",150, 400);
     			
 	}
 
@@ -127,6 +127,7 @@ public class DrawSnakeGamePanel extends JPanel {
 	private void displaySnake(Graphics g) {
 
 		LinkedList<Point> coordinates = snake.segmentsToDraw();
+
 		
 		//Draw head in grey
 		g.setColor(Color.LIGHT_GRAY);

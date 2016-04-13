@@ -64,6 +64,8 @@ public class SnakeGame {
 
 	private static void createAndShowGUI() {
 		//Create and set up the window.
+		// JFrame docs
+		// https://docs.oracle.com/javase/7/docs/api/javax/swing/JFrame.html
 		snakeFrame = new JFrame();
 		snakeFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
